@@ -13,6 +13,10 @@ public class CarExam {
         Taxi taxi = new Taxi("black", "tesla", "3");
         taxi.startMeter();
         taxi.stopMeter();
+
+        Truck truck = new Truck("black", "hyundai", "bongo");
+        truck.load();
+        truck.offload();
     }
 
 }

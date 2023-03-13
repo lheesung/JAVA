@@ -8,6 +8,7 @@ public class Taxi extends Car {
         super(color, company, model);
     }
     public void startMeter(){
+        color = "black";
         System.out.println("미터기를 올린다.");
         startCar();
     }

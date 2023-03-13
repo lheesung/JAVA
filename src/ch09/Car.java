@@ -1,7 +1,7 @@
 package ch09;
 
 public class Car {
-    private String color;
+    protected String color;
     private String company;
     private String model;
     private int speed;
